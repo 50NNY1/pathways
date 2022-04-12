@@ -23,30 +23,6 @@
     "perform": {
     }
   },
-  "5": {
-    "gran": {
-    },
-    "perform": {
-    }
-  },
-  "6": {
-    "gran": {
-    },
-    "perform": {
-    }
-  },
-  "7": {
-    "gran": {
-    },
-    "perform": {
-    }
-  },
-  "8": {
-    "gran": {
-    },
-    "perform": {
-    }
-  },
   "fx1": {
     "bitcrush": {
     },
@@ -56,22 +32,6 @@
     }
   },
   "fx2": {
-    "bitcrush": {
-    },
-    "delay": {
-    },
-    "reverb": {
-    }
-  },
-  "fx3": {
-    "bitcrush": {
-    },
-    "delay": {
-    },
-    "reverb": {
-    }
-  },
-  "fx4": {
     "bitcrush": {
     },
     "delay": {
