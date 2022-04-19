@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,16 +61,6 @@
 					"patching_rect" : [ 61.0, 263.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 166.0, 42.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-78",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 678.0, 1017.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -2056,6 +2046,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "#0_buff",
+					"chanoffset" : 0,
 					"id" : "obj-11",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -2144,7 +2135,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -2152,24 +2142,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 1,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-78", 1 ],
-					"order" : 0,
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
-					"midpoints" : [ 677.0, 1027.0 ],
-					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
